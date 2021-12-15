@@ -7,15 +7,15 @@ Terms to get acquainted with:
 ### 1.Base URL:
 All Symbl APIs use the base URL ``` https://api.symbl.ai/v1/ ```
 ### 2.Endpoint:
- `/v1/conversations` | Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. | [Conversation API](/docs/conversation-api/introduction)
+ `/v1/conversations` - Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. - Supported API: [Conversation API](/docs/conversation-api/introduction)
 ### 3.Parameters:
  To get specific data from the server, Symbl has parameters depending on the API. 
 ### 4.Authentication: 
 To identify a developer and keep track of the number of customers, we need authentication. 
 Symbl uses OAuth2.0 Protocol for Authentication. Steps for API Authentication on the Symbl Platform
--- Login to the Symbl Platform 
---From your homepage note down your App id and App Secret. It is advised to keep them confidential and handy
---To generate Access Token, make a POST to the Endpoint: ```
+- Login to the Symbl Platform 
+- From your homepage note down your App id and App Secret. It is advised to keep them confidential and handy
+- To generate Access Token, make a POST to the Endpoint: ```
 https://api.symbl.ai/oauth2/token:generate```
 
 
