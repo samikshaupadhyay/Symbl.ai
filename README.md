@@ -4,12 +4,13 @@
 
 Symbl APIs are built around REST (Representational State Transfer) and has predictable resource-oriented URLs, accept form-encoded request bodies, return JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
 Terms to get acquainted with:
-- Base URL: All Symbl APIs use the base URL ``` https://api.symbl.ai/v1/ ```
-- Endpoint:
- /v1/conversations - Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. and supports the Conversation API
-- Parameters:
+### 1.Base URL:
+All Symbl APIs use the base URL ``` https://api.symbl.ai/v1/ ```
+### 2.Endpoint:
+ `/v1/conversations` | Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. | [Conversation API](/docs/conversation-api/introduction)
+### 3.Parameters:
  To get specific data from the server, Symbl has parameters depending on the API. 
-- Authentication: 
+### 4.Authentication: 
 To identify a developer and keep track of the number of customers, we need authentication. 
 Symbl uses OAuth2.0 Protocol for Authentication. Steps for API Authentication on the Symbl Platform
 -- Login to the Symbl Platform 
@@ -144,7 +145,7 @@ curl --location --request GET 'https://api.symbl.ai/v1/conversations/55266324145
 },
 {
 "id": "6404582466912256",
-"text": "Yes, ma'am and Mr. Johnson, do you have the Parker scarf in light blue with you now?",
+"text": "Yes, mam and Mr. Johnson, do you have the Parker scarf in light blue with you now?",
 "type": "question",
 
 "score": 0.9915077116276262,
