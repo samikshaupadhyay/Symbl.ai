@@ -5,7 +5,11 @@
 Symbl APIs are built around REST (Representational State Transfer) and has predictable resource-oriented URLs, accept form-encoded request bodies, return JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
 Terms to get acquainted with:
 ### 1.Base URL:
-All Symbl APIs use the base URL ``` https://api.symbl.ai/v1/ ```
+All Symbl APIs use the base URL 
+```sh
+https://api.symbl.ai/v1/ 
+```
+
 ### 2.Endpoint:
  `/v1/conversations` - Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. - Supported API: [Conversation API](/docs/conversation-api/introduction)
 ### 3.Parameters:
@@ -41,9 +45,6 @@ If you have a Conversation ID the Conversation API can help you:
 - _Summary_: This API allows you to get a Summary of important contextual messages in a conversation.
 - _Comprehensive Action Items_: This API allows you to get a Summary of important contextual messages in a conversation.
 
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
 
 ### GET Insights 
 Returns all the insights in a Conversation including Questions, Action Items, etc.
