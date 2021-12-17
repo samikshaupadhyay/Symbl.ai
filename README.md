@@ -11,7 +11,7 @@ https://api.symbl.ai/v1/
 ```
 
 ### 2.Endpoint:
- `/v1/conversations` - Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. - Supported API: [Conversation API](/docs/conversation-api/introduction)
+ `/v1/conversations` - Returns the conversation object that provides Conversation Intelligence like Topics, Action Items, Questions, etc. - Supported API: [Conversation API](https://docs.symbl.ai/docs/conversation-api/introduction/)
 ### 3.Parameters:
  To get specific data from the server, Symbl has parameters depending on the API. 
 ### 4.Authentication: 
